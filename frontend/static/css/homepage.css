@@ -30,7 +30,10 @@ body{
   overflow-x: hidden;
   transform-style: preserve-3d;
 }
-
+.announced-text{
+  font-size: 30px;
+  font-weight: 700;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -510,15 +513,15 @@ ul {
 }
 
 .a-n2:hover{
-    background:#b00000; color: #000;
-    box-shadow: 0px 0px 10px #b00000, 0px 0px 40px#b00000, 0px 0px 80px #b00000; transition-delay: 0.2s;
+    background:#5865F2; color: #000;
+    box-shadow: 0px 0px 10px #5865F2, 0px 0px 40px#5865F2, 0px 0px 80px #5865F2; transition-delay: 0.2s;
 }
 .a-n2 span:nth-child(1){
     top: 0px;
     left: -91%;
     width: 100%;
     height: 2px;
-    background: #b00000;
+    background: #5865F2;
 }
  
 .a-n2:hover span:nth-child(1){
@@ -530,7 +533,7 @@ left:0%;
     right: -91%;
     width: 100%;
     height: 2px;
-    background: #b00000;
+    background: #5865F2;
 }
  
 .a-n2:hover span:nth-child(3){
@@ -542,7 +545,7 @@ right:0%;
     right: 0%;
     width: 2px;
     FONT-WEIGHT: 100;
-    background: #b00000;
+    background: #5865F2;
     height: 100%;
 }
  
@@ -555,7 +558,7 @@ bottom:0%;
     left: 0%;
     width: 2px;
     FONT-WEIGHT: 100;
-    background: #b00000;
+    background: #5865F2;
     height: 100%;
 }
  
@@ -1325,4 +1328,140 @@ input[type=radio]:checked {
 .glitch:hover:before{
   padding: 0 10px 0 10px;
 } 
+}
+
+
+
+
+.dot-elastic {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dotElastic 1s infinite linear;
+}
+
+.dot-elastic::before, .dot-elastic::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-elastic::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dotElasticBefore 1s infinite linear;
+}
+
+.dot-elastic::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElastic {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 1.5);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElasticAfter {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+.timer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  width: 65%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.time .time-box {
+  height: 80%;
+  width: 20%;
+  text-align: center;
+}
+
+.time-box div,
+.time-box p {
+  font-size: 1vw;
+  font-family: "Oleo Script Swash Caps", cursive;
+  letter-spacing: 2.5px;
+  color: rgb(163, 255, 235);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1), -1px -1px 4px whitesmoke;
+}
+.time-box div {
+  height: 60%;
+  font-size: 3vw;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 25%;
+}
+
+#day-box p {
+  letter-spacing: 5px;
+}
+
+::selection {
+  background-color: transparent;
 }
