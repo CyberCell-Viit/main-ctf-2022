@@ -1,0 +1,140 @@
+.sponsors-container {
+  padding: 30px;
+  margin-top: 5%;
+}
+
+.sponsor-bg-color {
+  background-color: #1b1a1a;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+  backdrop-filter: blur(14px);
+}
+
+.sponsors-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+
+.sponsor-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.sponsor-links {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.company-info {
+  text-align: center;
+}
+
+.sponsor-logo {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.sponsor-logo-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card:hover .shine {
+  transform: skewX(20deg) translateX(300px);
+}
+
+.shine {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  height: 98px;
+  width: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 0.3s linear;
+  transform: skewX(20deg) translateX(0);
+}
+
+
+.spons-row{
+  
+  
+}
+.gold-spons .title-spons{
+  height: 500px;
+}
+.title-spons img {
+  width: 170px;
+}
+.gold-spons img {
+  width: 150px;
+}
+
+.my-hr {
+  border-radius: 20px;
+  height: 23px;
+  border-bottom: #d51d1d solid 1px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+h1.fifth {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 2px 2px 0 #e26d6d;
+  transition: all 0.2s ease;
+}
+
+h1.fifth:hover {
+  text-shadow: 0 0 0 ;
+}
+
+.spons-container{
+  margin-top: 100px;
+}

@@ -76,7 +76,7 @@ export default class extends AbstractView {
         
         <div class="container my-5 custom-about">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <div class="col-lg-7 order-xs-2 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1"><span style="font-weight: 200;">About</span> <br> <span style="font-weight:900;padding-top:10px;">Cybercell  <span style="color:#b00000 ;">VIIT</span></span> </h1>
                     <p class="lead_1">CyberCell, VIIT is a tight-knit group of students aiming to study and learn more about the CyberSecurity domain, and with this aim, we are constantly trying to upgrade ourselves by working collaboratively on various activities. One of these is the annual CTF by the name VishwaCTF. And, this year we are also rolling out the VishwaCTF-Mini to help beginners get a try of the CTF Field before taking on the main VishwaCTF.
                     </p>
@@ -91,7 +91,7 @@ export default class extends AbstractView {
                         </svg></a>
                     </div>
                 </div>
-                <div class="about-image col-lg-5 offset-lg-0.5 p-0 overflow-hidden  shadow-lg">
+                <div class="about-image order-xs-1 col-lg-5 offset-lg-0.5 p-0 overflow-hidden  shadow-lg">
                     <img class="rounded-lg-3" src="/static/images/cybercell logo.png" alt="" width="400"></img>
                 </div>
             </div>
