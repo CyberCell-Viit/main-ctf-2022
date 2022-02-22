@@ -110,14 +110,19 @@
 }
 @media screen and (max-width: 500px){
     .FAQ-main .move{
-        justify-content: center;
+        justify-content: none;
         margin-left: 5rem;
     }
     .FAQ-main .question{
         width: 22rem;
     }
     .FAQ-main div{
-        width: 22rem;
+        display: grid;
+        background-color: transparent;
+        transition-property: none;
+        transition-duration: none;
+        border-radius: 20px;
+        width: 19rem;
     }
 }
 @media screen and (max-width: 450px){
@@ -128,6 +133,11 @@
         width: 19rem;
     }
     .FAQ-main div{
+        display: grid;
+        background-color: transparent;
+        transition-property: none;
+        transition-duration: none;
+        border-radius: 20px;
         width: 19rem;
     }
 }
@@ -139,6 +149,11 @@
         width: 19rem;
     }
     .FAQ-main div{
+        display: grid;
+        background-color: transparent;
+        transition-property: none;
+        transition-duration: none;
+        border-radius: 20px;
         width: 19rem;
     }
 }
@@ -151,6 +166,11 @@
         font-size: 12px;
     }
     .FAQ-main div{
+        display: grid;
+        background-color: transparent;
+        transition-property: none;
+        transition-duration: none;
+        border-radius: 20px;
         width: 15rem;
     }
 }
