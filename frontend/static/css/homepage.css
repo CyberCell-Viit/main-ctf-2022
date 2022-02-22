@@ -820,7 +820,17 @@ top:0%;
   overflow: hidden;
   animation: noise-anim-2 15s infinite linear alternate-reverse;
 }
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+  .rounded-lg-3{
+    transform: translateX(150px);
+  }
+}
 
+@media only screen and (max-width: 550px) and (min-width: 539px){
+  .rounded-lg-3{
+    transform: translateX(85px);
+  }
+}
 
 
 
@@ -946,7 +956,7 @@ top:0%;
   font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
   transform-style: preserve-3d;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 input[type=radio] {
