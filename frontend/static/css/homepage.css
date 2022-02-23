@@ -956,7 +956,7 @@ top:0%;
   font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
   transform-style: preserve-3d;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 input[type=radio] {
@@ -1455,7 +1455,7 @@ input[type=radio]:checked {
 
 .time-box div,
 .time-box p {
-  font-size: 1vw;
+  font-size: 2vw;
   font-family: "Oleo Script Swash Caps", cursive;
   letter-spacing: 2.5px;
   color: rgb(163, 255, 235);
