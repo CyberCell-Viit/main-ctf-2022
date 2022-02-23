@@ -8,44 +8,40 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `<div class="main-title-div">
-        
-            <h1 class="title" data-text="Cybercell VIIT" >Cybercell VIIT</h1>
-            <h2 style="color:#b00000;">Presents</h2>
-            <section id="ctf_logo"></section>
 
-            <div class="button-div mt-5">
-            <a class="a-n2" target="_blank" href="https://discord.gg/M4KwSDpE8t">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p class="play-button" style="display:"flex"; justify-content:"center"; align-items:"center; "white-space":"nowrap">
-                Join Discord <i class="fab fa-discord"></i></p>
-            </a>
+        <h1 class="title" data-text="Cybercell VIIT" >Cybercell VIIT</h1>
+        <h2 style="color:#b00000;">Presents</h2>
+        <section id="ctf_logo"></section>
+        <div class="time ">
+            <div id="day-box" class="time-box ">
+                <div id="days"> </div>
+                <p>Days</p>
             </div>
-         
-            <div class="time ">
-                <div id="day-box" class="time-box ">
-                    <div id="days"> </div>
-                    <p>Days</p>
-                </div>
-                <div class="time-box">
-                    <div id="hours"> </div>
-                    <p>Hours</p>
-                </div>
-                <div class="time-box">
-                    <div id="min"> </div>
-                    <p>Minutes</p>
-                </div>
-                <div class="time-box">
-                    <div id="sec"> </div>
-                    <p>Seconds</p>
-                </div>
-       
+            <div class="time-box">
+                <div id="hours"> </div>
+                <p>Hours</p>
             </div>
+            <div class="time-box">
+                <div id="min"> </div>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <div id="sec"> </div>
+                <p>Seconds</p>
+            </div>
+        </div>      
+        <div class="button-div">
+        <a class="a-n2" target="_blank" href="https://discord.gg/M4KwSDpE8t">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <p class="play-button" style="display:"flex"; justify-content:"center"; align-items:"center; "white-space":"nowrap">
+            Join Discord <i class="fab fa-discord"></i></p>
+        </a>
+        </div>  
+</div>
 
-
-        
     </div>
     <div class="container px-4 py-5" id="custom-cards">
             <p class="glitch sponsor-title" data-text="Co-Powered By" style="text-align: center;font-weight: 700;">Co-Powered <span style="color: #b00000;">By</span> </p>
