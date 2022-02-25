@@ -29,7 +29,7 @@ export default class extends AbstractView {
                 <div id="sec"> </div>
                 <p>Seconds</p>
             </div>
-        </div>      
+        </div>    
         <div class="button-div">
         <a class="a-n2" target="_blank" href="https://discord.gg/M4KwSDpE8t">
             <span></span>

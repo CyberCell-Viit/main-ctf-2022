@@ -6,7 +6,7 @@ var x = setInterval(function () {
 
     // Get today's date and time
     var now = new Date().getTime();
-
+    var startTime = new Date("Mar 19, 2022 16:00:00")
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
 
@@ -21,6 +21,7 @@ var x = setInterval(function () {
     document.getElementById("hours").innerHTML = hours
     document.getElementById("min").innerHTML = minutes
     document.getElementById("sec").innerHTML = seconds
+    document.getElementById("startTime").innerHTML = startTime.toLocaleDateString()+" "+startTime.toLocaleTimeString()
 
 
     // If the count down is finished, write some text
