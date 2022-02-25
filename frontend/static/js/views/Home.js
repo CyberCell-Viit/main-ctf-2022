@@ -36,7 +36,7 @@ export default class extends AbstractView {
             <span></span>
             <span></span>
             <span></span>
-            <p class="play-button" style="display:"flex"; justify-content:"center"; align-items:"center; "white-space":"nowrap">
+            <p class="play-button" style="margin:0 auto">
             Join Discord <i class="fab fa-discord"></i></p>
         </a>
         </div>  
