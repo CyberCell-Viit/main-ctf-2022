@@ -91,6 +91,7 @@ body {
   transition: 0.5s;
   overflow: hidden;
   padding-bottom: 150px;
+  margin-top: 5vw;
 }
 
 .bar:before,

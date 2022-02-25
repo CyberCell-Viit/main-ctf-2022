@@ -102,8 +102,6 @@ export default class extends AbstractView {
                 <input type="radio" name="slider" id="s2"></input>
                 <input type="radio" name="slider" id="s3"></input>
                 <input type="radio" name="slider" id="s4"></input>
-                <input type="radio" name="slider" id="s5"></input>
-
                 <label for="s1" id="slide1"><img src="../static/images/1.jpg" alt=""></img></label>
                 <label for="s2" id="slide2"><img src="../static/images/2.jpg" alt=""></img></label>
                 <label for="s3" id="slide3"><img src="../static/images/3.jpg" alt=""></img></label>

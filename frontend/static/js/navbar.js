@@ -8,8 +8,6 @@ hamburger_menu.addEventListener("click", () => {
 function switchPage(){
   container.classList.remove("active");
 }
-var today = new Date();
-document.getElementById("startTimeZoneWise").innerHTML = today;
 
 /*document.querySelector(".links").addEventListener("click", () => {
   container.classList.toggle("active");
