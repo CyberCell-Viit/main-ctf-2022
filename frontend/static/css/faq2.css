@@ -11,14 +11,15 @@
 
 .FAQ-main a{
     text-decoration: none;
-    color:#FFAB76;
+    color:#FF7272;
 }
 .FAQ-main h2 {
     text-align: center;
+    color:wheat;
 }
 .FAQ-main h1 {
     text-align: center;
-    color: #4E7FFF;
+    color:wheat;
 }
 
 .FAQ-main .question {
@@ -27,18 +28,20 @@
     font-size: 20px;
     color: white;
     text-align: left;
-    border: 6px solid #4E7FFF;
+    border: 6px solid #541212;
     padding: 30px;
     width: 80rem;
     border-radius: 20px;
 }
 
 .FAQ-main .move {
-    background-color: #1A374D;
+    background-color: #B00000;
     margin: 40px;
     font-size: 20px;
     text-align: left;
     border-radius: 20px;
+    z-index: 10;
+    background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
 }
 
 .FAQ-main div {
