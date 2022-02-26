@@ -1,16 +1,16 @@
 import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
-    constructor() {
-        super();
-        this.setTitle("Vishwa CTF | Type of Questions");
-    }
+  constructor() {
+    super();
+    this.setTitle("Vishwa CTF | Type of Questions");
+  }
 
-    async getHtml() {
-        return `
+  async getHtml() {
+    return `
         <h2
-        class="pb-2 glitch"
+        class="pb-3 glitch"
         data-text="Type Of Questions"
-        style="text-align: center; font-weight: 700; font-size: 4em"
+        style="text-align: center; font-weight: 700; font-size: 3.5em"
       >
         Type Of <span style="color: #b00000">Questions</span>
       </h2>
@@ -63,5 +63,5 @@ export default class extends AbstractView {
         </div>
       </div>
     `;
-    }
+  }
 }

@@ -37,6 +37,16 @@
   overflow: hidden;
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
+.pb-3 {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  height: 100px;
+  margin-bottom: 50px;
+  width: 518px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .glitch::before {
   content: attr(data-text);
   position: absolute;
@@ -95,3 +105,17 @@
   text-align: right;
   width: 100%;
 }
+@media screen and (max-width: 502px){
+  .pb-3 {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    height: 100px;
+    margin-bottom: 50px;
+    width: 518px;
+    margin-left: -50px;
+    margin-right: auto;
+    font-size: 2rem;
+  }
+}
+
