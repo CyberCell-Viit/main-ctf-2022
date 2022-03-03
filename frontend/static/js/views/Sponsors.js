@@ -43,16 +43,12 @@ async getHtml() {
             <div class="my-hr"></div>
           </center>
         </div>
-        <div class="row spons-row">
+        <div class="row spons-row ">
           <h1 class="text-center fifth">Silver Sponsors</h1>
   
-          <div class="d-flex justify-content-center gold-spons">
+          <div class="d-flex  justify-content-center gold-spons">
             <div class="">
-              <img
-                height="100"
-                src="/static/images/sponsors-logo/silver/EPIC_LOGO_Small.png"
-                alt="sponsor"
-              />
+            <i>To Be Announced</i>
             </div>
           </div>
           <center>
@@ -63,13 +59,19 @@ async getHtml() {
           <h1 style="font-size: 30px" class="text-center fifth">
             Comunity Sponsors
           </h1>
-          <div class="d-sm-flex justify-content-center gold-spons">
-            <center class="">
+          <div class="d-sm-flex mt-3 justify-content-center gold-spons">
+            <center class="mx-5">
               <img
-                src="/static/images/sponsors-logo/community/darkArmy.png"
+                src="/static/images/sponsors-logo/community/noobArmy.jpeg"
                 alt="sponsor"
               />
             </center>
+            <center class="">
+            <img
+              src="/static/images/sponsors-logo/community/darkArmy.png"
+              alt="sponsor"
+            />
+          </center>
             <center class="mx-5 mt-3 spons-comunity-mid">
               <img
                 src="/static/images/sponsors-logo/community/infosec-logo.jpeg"
