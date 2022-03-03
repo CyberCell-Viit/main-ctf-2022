@@ -29,7 +29,12 @@ export default class extends AbstractView {
                 <div id="sec"> </div>
                 <p>Seconds</p>
             </div>
-        </div>    
+        </div> 
+
+        <div class="event-duration">
+            <p>19th March 04:00pm IST to 21st March 04:00pm IST</p>
+        </div>
+           
         <div class="button-div">
         <a class="a-n2" target="_blank" href="https://discord.gg/M4KwSDpE8t">
             <span></span>
