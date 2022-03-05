@@ -8,7 +8,7 @@
 
 body,
 button {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 body {
@@ -23,6 +23,21 @@ body {
   overflow: hidden;
 }
 
+.ctf-details-table{
+ margin-bottom: 50px;
+}
+.ctf-details-table td{
+  padding: 5px 30px;
+  font-size: 20px;
+  /* font-weight: 300; */
+}
+.table-entry{
+  color: #b00000;
+  text-transform: uppercase;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+
+}
 .section {
   min-height: 100vh;
   width: 100%;
@@ -155,7 +170,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  white-space: nowrap;
 }
 
 .section.active .bar {
@@ -319,6 +333,30 @@ ul {
 /*-----------------------------------------for mobile screens custom--------------------------------------*/
 
 @media (max-width: 660px) {
+  .about-image img{
+    width: 150px;
+  }
+  .title-img{
+    width: 250px;
+    height: 80px;
+  }
+
+  .ctf-details-table{
+    margin-bottom: 50px;
+   }
+   .ctf-details-table td{
+     padding: 4px 2px;
+     font-size: 15px !important;
+     /* font-weight: 300; */
+   }
+   .table-entry{
+     color: #b00000;
+     text-transform: uppercase;
+     font-weight: 700 !important;
+   
+   }
+
+
   .section.active .main {
     animation: main-animation 0.5s ease;
     cursor: pointer;
@@ -465,10 +503,10 @@ ul {
   }
 }
 
-.event-duration{
+.event-duration {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 /*BUTTON CSS*/
@@ -479,6 +517,13 @@ ul {
 
 .title {
   font-size: 5em;
+  margin-bottom: 28px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important; */
+}
+.presents {
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
 .sponsor-title {
@@ -1448,7 +1493,6 @@ input[type="radio"]:checked {
 .time-box div,
 .time-box p {
   font-size: 1vw;
-  font-family: "Oleo Script Swash Caps", cursive;
   letter-spacing: 2.5px;
   color: rgb(163, 255, 235);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1), -1px -1px 4px whitesmoke;

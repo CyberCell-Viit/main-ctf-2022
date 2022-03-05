@@ -123,8 +123,9 @@
 
 h1.fifth {
   text-transform: uppercase;
+  font-size: 20px;
   font-weight: 400;
-  text-shadow: 2px 2px 0 #e26d6d;
+  text-shadow: 1.5px 1.5px 0 #e26d6d;
   transition: all 0.2s ease;
 }
 
@@ -133,7 +134,7 @@ h1.fifth:hover {
 }
 
 .spons-container {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 @media (max-width: 750px) {

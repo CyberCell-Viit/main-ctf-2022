@@ -54,7 +54,6 @@ body{
 }
 .about-us-main p{
    display:flex;
-   white-space: nowrap;
    color: #fff;
    padding-bottom: 10px;
    border-bottom: 1px solit #fff;
@@ -77,7 +76,7 @@ body{
 @media screen and (max-width:520px){
     .about-us-main p{
         font-size: 0.85rem;
-        white-space: nowrap;
+      
         /* display: grid; */
         color: #fff;
         padding-bottom: 20px;
