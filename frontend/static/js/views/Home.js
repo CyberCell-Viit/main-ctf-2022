@@ -37,16 +37,24 @@ export default class extends AbstractView {
                 letter-spacing: 5px; display:block;">TO</span> 21st March 04:00pm IST</p>
             </div>
 
-            <div class="button-div">
-                <a class="a-n2" target="_blank" href="https://discord.gg/M4KwSDpE8t">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <p class="play-button" style="margin:0 auto">
-                        Join Discord <i class="fab fa-discord"></i></p>
-                </a>
-            </div>
+            <center class="">
+            <a target="_blank" href="https://play.vishwactf.com/register">
+            <div class="button2 button2-register">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Register
+          </div></a>
+            <a  target="_blank" href="https://discord.gg/M4KwSDpE8t"
+            <div class="button2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Join Discord
+          </div></a>
+            </center>
         </div>
 
     </div>
