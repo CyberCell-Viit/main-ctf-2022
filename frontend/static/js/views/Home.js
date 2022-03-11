@@ -76,14 +76,23 @@ export default class extends AbstractView {
     <div class="row spons-row">
       <h1 class="text-center fifth">Gold Sponsors</h1>
 
-      <div class="d-flex justify-content-center gold-spons">
-        <i>To Be Announced</i>
-        <div class="">
-          <!-- <img src="/static/images/ctf logo.png" alt="sponsor" /> -->
-        </div>
-        <div>
-          <!-- <img src="/static/images/ctf logo.png" alt="sponsor" /> -->
-        </div>
+      <div class="d-sm-flex mt-3  justify-content-center gold-spons">
+      <center class="mx-5 cloud-sek">
+      <a target="_blank" href="https://cloudsek.com/">
+                  <img
+                  class="mt-2"
+       src="/static/images/sponsors-logo/gold/cloud_sek.png"
+       alt="sponsor"
+     /></a>
+   </center>
+   <center class="">
+    <a target="_blank" href="https://www.viit.ac.in/">
+                  <img
+                  style="height: 150px; background-color: #fff;"
+     src="/static/images/sponsors-logo/gold/vi.png"
+     alt="sponsor"
+   /></a>
+ </center>
       </div>
       <center>
         <div class="my-hr"></div>
@@ -92,15 +101,35 @@ export default class extends AbstractView {
     <div class="row spons-row ">
       <h1 class="text-center fifth">Silver Sponsors</h1>
 
-      <div class="d-flex  justify-content-center gold-spons">
-        <div class="">
-        <i>To Be Announced</i>
-        </div>
-      </div>
-      <center>
-        <div class="my-hr"></div>
-      </center>
+      <div class="d-sm-flex mt-3   justify-content-center gold-spons">
+      <center class="mx-5 mb-3">
+      <a target="_blank" href="">
+                  <img
+                  style="background: #fff; padding: 10px;"
+       src="/static/images/sponsors-logo/silver/csi.png"
+       alt="sponsor"
+     /></a>
+   </center>
+   <center class="mt-4">
+    <a target="_blank" href="https://www.viit.ac.in/">
+                  <img
+                  widght="150px"
+     src="/static/images/sponsors-logo/silver/EPIC_LOGO_Small.png"
+     alt="sponsor"
+   /></a>
+ </center>
+   <center class="mx-5 mt-3 spons-comunity-mid">
+      <a target="_blank" href="">
+                  <img
+       src="/static/images/sponsors-logo/silver/acm-logo.png"
+       alt="sponsor"
+     /></a>
+   </center>
+    
     </div>
+    <center>
+    <div class="my-hr"></div>
+  </center>
     <div class="row spons-row">
       <h1 style="font-size: 20px" class="text-center fifth">
         Comunity Sponsors

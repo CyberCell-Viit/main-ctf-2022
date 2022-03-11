@@ -136,10 +136,18 @@ h1.fifth:hover {
 .spons-container {
   margin-top: 40px;
 }
-
+.cloud-sek {
+  margin-top: 50px;
+}
 @media (max-width: 750px) {
   .spons-comunity-mid {
     margin: 50px 0;
+  }
+  .cloud-sek{
+    margin-top: 0;
+  }
+  .cloud-sek img{
+    margin-bottom: 30px;
   }
   .spons-infra{
     margin-top: 50px;
