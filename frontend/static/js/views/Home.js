@@ -132,7 +132,7 @@ export default class extends AbstractView {
   </center>
     <div class="row spons-row">
       <h1 style="font-size: 20px" class="text-center fifth">
-        Comunity Sponsors
+      community Sponsors
       </h1>
       <div class="d-sm-flex mt-3 justify-content-center gold-spons">
         <center class="mx-5 mb-3">
