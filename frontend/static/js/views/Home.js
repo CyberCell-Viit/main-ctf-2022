@@ -57,6 +57,28 @@ export default class extends AbstractView {
             </center>
         </div>
 
+
+
+
+  <p class="glitch sponsor-title" data-text="Prizes" style="text-align: center; color: #b00000;font-weight: 700;">
+  Prizes</p>
+  <div class="prizes-container">
+  <center class="">
+  <h1 class="col-4">
+  Total prize pool of 
+  <a href="" class="typewrite tot-prize" data-period="2000" data-type='[ "₹ 75,000", "1000$" ]'>
+    <span class="wrap "></span>
+  </a>
+</h1>
+<hr width="50%" style="color: white"/>
+<div class="first-prize">
+
+</div>
+</div>
+</center>
+
+  </div>
+
     </div>
     <div class="container px-4 py-5" id="custom-cards">
         <p class="glitch sponsor-title" data-text="Co-Powered By" style="text-align: center;font-weight: 700;">
@@ -66,8 +88,9 @@ export default class extends AbstractView {
         <center class="">
       <a href="https://burpbounty.net/" target="_blank">
         <img class="title-img" src="/static/images/sponsors-logo/title/BurpBounty.png" alt="sponsor" /> </div>
-      </center>
+      
       </a>
+      </center>
         </div>
     </div>
     </div>
@@ -85,7 +108,7 @@ export default class extends AbstractView {
        alt="sponsor"
      /></a>
    </center>
-   <center class="">
+   <center class="mr-5">
     <a target="_blank" href="https://www.viit.ac.in/">
                   <img
                   style="height: 150px; background-color: #fff;"
@@ -93,6 +116,14 @@ export default class extends AbstractView {
      alt="sponsor"
    /></a>
  </center>
+ <center class="mx-5">
+ <a target="_blank" href="https://www.viitalumni.org/">
+               <img
+               style="height: 150px; background-color: #fff;"
+  src="/static/images/sponsors-logo/gold/viitaa.png"
+  alt="sponsor"
+/></a>
+</center>
       </div>
       <center>
         <div class="my-hr"></div>
@@ -110,18 +141,28 @@ export default class extends AbstractView {
        alt="sponsor"
      /></a>
    </center>
+   
    <center class="mt-4">
-    <a target="_blank" href="https://www.viit.ac.in/">
+    <a target="_blank" href="">
                   <img
-                  widght="150px"
+                  height="90px"
+                  widght="180px"
      src="/static/images/sponsors-logo/silver/EPIC_LOGO_Small.png"
      alt="sponsor"
    /></a>
  </center>
+ 
    <center class="mx-5 mt-3 spons-comunity-mid">
       <a target="_blank" href="">
                   <img
        src="/static/images/sponsors-logo/silver/acm-logo.png"
+       alt="sponsor"
+     /></a>
+   </center>
+   <center class=" cloud-sek">
+      <a target="_blank" href="https://hacktify.in/">
+                  <img
+       src="/static/images/sponsors-logo/silver/hacktify1.png"
        alt="sponsor"
      /></a>
    </center>
@@ -247,10 +288,6 @@ export default class extends AbstractView {
 
 </tr>
 </table></center>
-
-  <p class="glitch sponsor-title" data-text="Prizes" style="text-align: center; color: #b00000;font-weight: 700;">
-  Prizes</p>
-
     <div class="container mt-5 ">
 
         <center>
