@@ -13,6 +13,8 @@ export default class extends AbstractView {
             <h1 style="font-family: unset;" class="title" data-text="Cybercell VIIT">Cybercell VIIT</h1>
             <h2 class="presents" style="color:#b00000;">Presents</h2>
             <section id="ctf_logo"></section>
+            <h4>Co-Powered By</h4>
+            <img height="50px" src="/static/images/sponsors-logo/title/BurpBounty.png"/>
             <div class="time ">
                 <div id="day-box" class="time-box ">
                     <div id="days"> </div>
@@ -59,33 +61,32 @@ export default class extends AbstractView {
 
 
 
+    <p class="glitch sponsor-title" data-text="Prizes" style="text-align: center; color: #b00000;font-weight: 700;">
+    Prizes</p>
+<div class="prizes-container">
+    <center class="">
+        <h1 class="col-4">
+            Total prize pool of
+            <a href="" class="typewrite tot-prize" data-period="2000" data-type='[ "₹ 75,000", "$1000" ]'>
+                <span class="wrap "></span>
+            </a>
+        </h1>
+        <hr width="50%" style="color: white" />
+        <div class="first-prize">
 
-  <p class="glitch sponsor-title" data-text="Prizes" style="text-align: center; color: #b00000;font-weight: 700;">
-  Prizes</p>
-  <div class="prizes-container">
-  <center class="">
-  <h1 class="col-4">
-  Total prize pool of 
-  <a href="" class="typewrite tot-prize" data-period="2000" data-type='[ "₹ 75,000", "1000$" ]'>
-    <span class="wrap "></span>
-  </a>
-</h1>
-<hr width="50%" style="color: white"/>
-<div class="first-prize">
 
+        </div>
+    </center>
 </div>
-</div>
-</center>
 
-  </div>
 
-    </div>
     <div class="container px-4 py-5" id="custom-cards">
-        <p class="glitch sponsor-title" data-text="Co-Powered By" style="text-align: center;font-weight: 700;">
-            Co-Powered <span style="color: #b00000;">By</span> </p>
+        <p class="glitch sponsor-title" data-text="Our Sponsors" style="text-align: center;font-weight: 700;">
+            Our <span style="color: #b00000;">Sponsors</span> </p>
 
         <div class="row justify-content-center">
         <center class="">
+        <h1 class="text-center fifth">Title Sponsors</h1>
       <a href="https://burpbounty.net/" target="_blank">
         <img class="title-img" src="/static/images/sponsors-logo/title/BurpBounty.png" alt="sponsor" /> </div>
       
@@ -94,6 +95,11 @@ export default class extends AbstractView {
         </div>
     </div>
     </div>
+
+
+    <center>
+    <div class="my-hr"></div>
+  </center>
 
     <div class="container spons-container">
     <div class="row spons-row">
@@ -288,14 +294,7 @@ export default class extends AbstractView {
 
 </tr>
 </table></center>
-    <div class="container mt-5 ">
-
-        <center>
-            <h5>To be Announced...</h2>
-        </center>
-
-    </div>
-        
+    
         
     <br></br>
 
