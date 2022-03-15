@@ -2,7 +2,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
   constructor() {
     super();
-    this.setTitle("Vishwa CTF | Type of Questions");
+    this.setTitle("VishwaCTF | Type of Questions");
   }
 
   async getHtml() {

@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
         super();
-        this.setTitle("Vishwa CTF | Home");
+        this.setTitle("VishwaCTF | Home");
     }
 
     async getHtml() {

@@ -4,6 +4,7 @@ import Questions from "./views/Questions.js";
 import Sponsors from "./views/Sponsors.js";
 import FAQ from "./views/FAQ.js";
 import FindTheBug from "./views/FindTheBug.js";
+import Rules from "./views/Rules.js";
 
 
 const navigateTo = url => {
@@ -17,7 +18,7 @@ const router = async () => {
         { path: "/find-the-bug", view: FindTheBug},
         { path: "/questions", view: Questions},
         { path: "/faq", view: FAQ},
-        { path: "/questions", view: () => console.log("viewing practice")},
+        { path: "/rules", view: Rules},
     ];
 
     const potentialMatches = routes.map(route => {
