@@ -7,6 +7,8 @@ export default class extends AbstractView {
 
   async getHtml() {
     return `
+    <div class="">
+    <div >
         <h2
         class="pb-3 glitch"
         data-text="Type Of Questions"
@@ -14,7 +16,8 @@ export default class extends AbstractView {
       >
         Type Of <span style="color: #b00000">Questions</span>
       </h2>
-      <div class="question-main container">
+      </div>
+      <div class="d-sm-flex justify-content-center">
         <div class="question-card">
           <img
             src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201906/Simpler-Cryptography_0.jpg?itok=sgZFQAH3"
@@ -49,6 +52,7 @@ export default class extends AbstractView {
         </div>
         <div class="question-card">
           <img
+          
             src="https://www.e-spincorp.com/wp-content/uploads/2016/03/TrendMicro-InterScan-Web-Security-IWSS-Product-Overview-by-E-SPIN-e1511926826459.jpg"
           />
           <div class="question-card-body">
@@ -61,6 +65,31 @@ export default class extends AbstractView {
             </p>
           </div>
         </div>
+        <div class="question-card">
+        <img
+        style="height: 200px"
+          src="/static/images/osint.jpeg"
+        />
+        <div class="question-card-body">
+          <h6>OSINT</h6>
+          <p>
+          Open-source intelligence (OSINT) is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence type.
+          </p>
+        </div>
+      </div>
+      <div class="question-card">
+      <img
+      style="height: 200px"
+        src="/static/images/stegno.jpeg"
+      />
+      <div class="question-card-body">
+        <h6>Steganography </h6>
+        <p>
+        Steganography is the practice of concealing a message within another message or a physical object. In computing/electronic contexts, a computer file, message, image, or video is concealed within another file, message, image, or video        </p>
+      </div>
+    </div>
+
+    </div>
       </div>
     `;
   }

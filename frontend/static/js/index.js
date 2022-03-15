@@ -10,9 +10,6 @@ const navigateTo = url => {
     history.pushState(null, null , url);
     router();
 };
-
-
-
 const router = async () => {
     const routes = [
         { path: "/", view: Home},

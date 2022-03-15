@@ -65,7 +65,7 @@ export default class extends AbstractView {
     Prizes</p>
 <div class="prizes-container">
     <center class="">
-        <h1 class="col-4">
+        <h1 class="">
             Total prize pool of
             <a href="" class="typewrite tot-prize" data-period="2000" data-type='[ "₹ 75,000", "$1000" ]'>
                 <span class="wrap "></span>
@@ -73,8 +73,22 @@ export default class extends AbstractView {
         </h1>
         <hr width="50%" style="color: white" />
         <div class="first-prize">
-
-
+    <p><i>1<sup>st</sup></i> <span> ₹18,000 and 1 Burp Bounty Pro License for 4 members</span></p>  
+        </div>
+        <div  class="second-prize">
+        <p><i>2<sup>nd</sup></i> <span> ₹13,000 and 1 Burp Bounty Pro License for 4 members</span></p>  
+            </div>
+            <div class="third-prize">
+            <p><i>3<sup>rd</sup></i> <span> ₹8,000 and 1 Burp Bounty Pro License for 4 members</span></p>  
+                </div>
+            <div style="font-size: 22px" class="third-prize">
+                <p style="width:300px" class="d-flex justify-content-around">
+                <d><i>4<sup style="font-size:14px">th</sup></i> <span> ₹2,500</span></d>
+                <d>   <i style="margin-left:30px">5<sup style="font-size:14px">th</sup></i> <span> ₹1500</span></d>
+                </p>  
+            </div>
+            <div style="font-size: 18px" class="third-prize">
+            <p><i>6<sup  style="font-size:12px">th</sup>-10<sup  style="font-size:12px">th</sup></i>&nbsp;&nbsp;₹1,500</p>
         </div>
     </center>
 </div>
@@ -280,7 +294,7 @@ export default class extends AbstractView {
 </tr>
 <tr>
 <td class="table-entry">End time :</td>
-<td>21th March'22 4:00 PM IST</td>
+<td>21st March'22 4:00 PM IST</td>
 </tr>
 
 <tr>
