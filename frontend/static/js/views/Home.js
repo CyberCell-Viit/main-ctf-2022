@@ -93,7 +93,13 @@ export default class extends AbstractView {
     </center>
 </div>
 
-
+    <center>
+    <p class="glitch sponsor-title" data-text="The Threat Roayle" style="text-align: center; color: #b00000;font-weight: 700;">
+    The Threat Roayle</p>
+    <a href="/the-threat-royale">
+    Register Now
+    </a>
+    </center>
     <div class="container px-4 py-5" id="custom-cards">
         <p class="glitch sponsor-title" data-text="Our Sponsors" style="text-align: center;font-weight: 700;">
             Our <span style="color: #b00000;">Sponsors</span> </p>

@@ -92,3 +92,6 @@
   }
 }
 
+.ttr-form iframe{
+  overflow: hidden; 
+}

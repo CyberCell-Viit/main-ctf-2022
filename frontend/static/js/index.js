@@ -3,7 +3,7 @@ import About from "./views/About.js";
 import Questions from "./views/Questions.js";
 import Sponsors from "./views/Sponsors.js";
 import FAQ from "./views/FAQ.js";
-import FindTheBug from "./views/FindTheBug.js";
+import FindTheBug from "./views/TheThreatRoyale.js";
 import Rules from "./views/Rules.js";
 
 
@@ -15,7 +15,7 @@ const router = async () => {
     const routes = [
         { path: "/", view: Home},
         { path: "/about", view: About},
-        { path: "/find-the-bug", view: FindTheBug},
+        { path: "/the-threat-royale", view: FindTheBug},
         { path: "/questions", view: Questions},
         { path: "/faq", view: FAQ},
         { path: "/rules", view: Rules},
