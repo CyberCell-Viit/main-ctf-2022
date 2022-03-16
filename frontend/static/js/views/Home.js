@@ -94,8 +94,10 @@ export default class extends AbstractView {
 </div>
 
     <center>
-    <p class="glitch sponsor-title" data-text="The Threat Roayle" style="text-align: center; color: #b00000;font-weight: 700;">
-    The Threat Roayle</p>
+    <p class="glitch sponsor-title" data-text="The Threat Royale" style="text-align: center; color: #b00000;font-weight: 700;">
+    The Threat Royale</p>
+    <h2>A Cybersecurity Event</h2>
+    <h5>Prize pool of Rs. 1 Lakh and Internship Opportunities to the Top Performers</h5>
     <a href="/the-threat-royale">
     Register Now
     </a>
