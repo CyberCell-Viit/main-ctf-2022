@@ -83,8 +83,8 @@ export default class extends AbstractView {
                 </div>
             <div style="font-size: 22px" class="third-prize">
                 <p style="width:300px" class="d-flex justify-content-around">
-                <d><i>4<sup style="font-size:14px">th</sup></i> <span> ₹2,500</span></d>
-                <d>   <i style="margin-left:30px">5<sup style="font-size:14px">th</sup></i> <span> ₹1500</span></d>
+                <d><i>4<sup style="font-size:14px">th</sup></i> <span> ₹5,000</span></d>
+                <d>   <i style="margin-left:30px">5<sup style="font-size:14px">th</sup></i> <span> ₹2,500</span></d>
                 </p>  
             </div>
             <div style="font-size: 18px" class="third-prize">
