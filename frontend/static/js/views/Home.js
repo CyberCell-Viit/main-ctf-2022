@@ -40,6 +40,7 @@ export default class extends AbstractView {
             </div>
 
             <center class="">
+            <div class='duo-buttons'>
             <a target="_blank" href="https://play.vishwactf.com/register">
             <div class="button2 button2-register">
             <span></span>
@@ -55,7 +56,16 @@ export default class extends AbstractView {
             <span></span>
             <span></span>
             Join Discord
-          </div></a>
+          </div></a></div>
+          <div class='threat-royale-button'>
+          <a   href="/the-threat-royale"
+            <div class="button2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            THREAT ROYALE
+          </div></a></div>
             </center>
         </div>
 
@@ -94,13 +104,31 @@ export default class extends AbstractView {
 </div>
 
     <center>
-    <p class="glitch sponsor-title" data-text="The Threat Royale" style="text-align: center; color: #b00000;font-weight: 700;">
-    The Threat Royale</p>
+    <p class="glitch sponsor-title" data-text="The Threat Royale" style="text-align: center;font-weight: 700;">
+    The Threat <span style="color: #b00000;">Royale</span></p>
     <h2>A Cybersecurity Event</h2>
     <h5>Prize pool of Rs. 1 Lakh and Internship Opportunities to the Top Performers</h5>
-    <a href="/the-threat-royale">
-    Register Now
-    </a>
+    <div class='container'>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col card-left-info order-2 order-md-1 order-lg-1">
+      <div class="card card-cover overflow-hidden text-white  rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');"> 
+        <img class='threat-left-card rounded-4' src='/static/images/threat-left.png'></img>
+      </div>
+    </div>
+
+    <div class="col order-1 order-md-2 order-lg-2">
+      <div class="card  card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+      <img class='threat-center-card rounded-4' src='/static/images/threat-center.png'></img>
+      </div>
+    </div>
+
+    <div class="col card-left-info order-3">
+      <div class="card card-cover  overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+      <img class='threat-left-card rounded-4' src='/static/images/threat-right.png'></img>
+      </div>
+    </div>
+  </div>
+    </div>
     </center>
     <div class="container px-4 py-5" id="custom-cards">
         <p class="glitch sponsor-title" data-text="Our Sponsors" style="text-align: center;font-weight: 700;">
@@ -130,9 +158,9 @@ export default class extends AbstractView {
       <div class="d-sm-flex mt-3  justify-content-center gold-spons">
       <center class="mx-5 cloud-sek">
       <a target="_blank" href="https://cloudsek.com/">
-                  <img
+                  <img style=" background-color: #fff;padding:20px"
                   class="mt-2"
-       src="/static/images/sponsors-logo/gold/cloud_sek.png"
+       src="/static/images/sponsors-logo/gold/cloudsek.png"
        alt="sponsor"
      /></a>
    </center>
