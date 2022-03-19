@@ -15,24 +15,7 @@ export default class extends AbstractView {
             <section id="ctf_logo"></section>
             <h4>Co-Powered By</h4>
             <img height="50px" src="/static/images/sponsors-logo/title/BurpBounty.png"/>
-            <div class="time ">
-                <div id="day-box" class="time-box ">
-                    <div id="days"> </div>
-                    <p>Days</p>
-                </div>
-                <div class="time-box">
-                    <div id="hours"> </div>
-                    <p>Hours</p>
-                </div>
-                <div class="time-box">
-                    <div id="min"> </div>
-                    <p>Minutes</p>
-                </div>
-                <div class="time-box">
-                    <div id="sec"> </div>
-                    <p>Seconds</p>
-                </div>
-            </div>
+            
 
             <div class="event-duration">
                 <p>19th March 04:00pm IST <span class="mx-2 text-center" style="color:#b00000; font-size: 18px; 
@@ -47,7 +30,7 @@ export default class extends AbstractView {
             <span></span>
             <span></span>
             <span></span>
-            Register
+            play ctf
           </div></a>
             <a  target="_blank" href="https://discord.gg/M4KwSDpE8t"
             <div class="button2">
